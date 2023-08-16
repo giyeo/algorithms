@@ -1,5 +1,11 @@
 from ..isSorted.isSorted import isSorted
 
+#
+
+# The time complexity of the binary search algorithm is O(log2n), which is very efficient.
+# The auxiliary space required by the program is O(1) for iterative implementation and O(log2n)
+# for recursive implementation due to call stack.
+
 def binarySearch(array, target):
     
     # if(isSorted(array) == False):

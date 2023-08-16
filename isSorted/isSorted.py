@@ -1,6 +1,8 @@
 # Time Complexity: O(n)
 # Proof: consider a sorted list L.
-# For any index i in the list, it's possible to make the list no longer sorted by modifying only the element L[i]. So any algorithm that doesn't look at L[i] doesn't have enough information to guarantee that it will correctly decide whether the list is sorted or not.
+# For any index i in the list, it's possible to make the list no longer sorted by modifying
+# only the element L[i]. So any algorithm that doesn't look at L[i] doesn't have enough information
+# to guarantee that it will correctly decide whether the list is sorted or not.
 # Since this holds for every index i, any correct algorithm must examine the entire list.
 
 def isSorted(array):
